@@ -28,3 +28,10 @@ npm run dev
 npm run build
 ```
 
+### Memo
+```
+npm create vue@latest
+npm install vuex@next --save
+```
+
+Ref: https://github.com/vuejs/vuex/tree/main/examples/composition/counter-hot

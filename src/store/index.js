@@ -16,18 +16,18 @@ const store = createStore({
   mutations
 })
 
-if (module.hot) {
-  module.hot.accept([
-    './getters',
-    './actions',
-    './mutations'
-  ], () => {
-    store.hotUpdate({
-      getters: require('./getters'),
-      actions: require('./actions'),
-      mutations: require('./mutations')
-    })
-  })
-}
+// if (module.hot) {
+//   module.hot.accept([
+//     './getters',
+//     './actions',
+//     './mutations'
+//   ], () => {
+//     store.hotUpdate({
+//       getters: require('./getters'),
+//       actions: require('./actions'),
+//       mutations: require('./mutations')
+//     })
+//   })
+// }
 
 export default store
